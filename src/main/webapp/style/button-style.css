@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.btn{
+	display: inline-block;
+	padding: 0 15px;
+    margin: 0 15px 0 0;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+    background-color: #fff;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+}
+
+.tablebtn{
+	display: inline-block;
+	padding: 0 10px;
+	margin: 0 10px 0 10px;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	height: 20px;
+	font-size: 14px;
+    font-weight: 600;
+    color: #444;
+    background-color: #BCEBDD;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+}

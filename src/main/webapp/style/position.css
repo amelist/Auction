@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.header {
+	height: 60px;
+	padding: 5px;
+	background: #BCEBDD;
+	border-radius: 10px;
+}
+
+.funcform{
+	float: right;
+	display: inline;
+}
+
+.searchform{
+	float: left;
+	display: inline;
+}
+
+.tableblock
+{
+	width: 100%;
+}

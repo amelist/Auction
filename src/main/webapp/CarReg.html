@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset = "UTF-8">
+	<link rel="stylesheet" href="style/button-style.css" type="text/css">
+	<link rel="stylesheet" href="style/form-style.css" type="text/css">
+	<title>Car posting page</title>
+	</head>
+	
+	<body class = "centerbody">
+		<form class = "regform" method = "POST" action = "CarReg">
+			<table>
+				<caption>Please, fill the info of your car</caption>
+				<tr>
+					<td><label for="model">Model:</label></td>
+					<td><input type="text" id="model" name="model" maxlength = "20" required><br></td>
+				</tr>
+				<tr>
+					<td><label for="price">Start price:</label></td>
+					<td><input type="number" step="0.01" id="price" name="price" required><br></td>
+				</tr>
+				<tr>
+					<td><label for="year">Year:</label></td>
+					<td><input type="number" min = "1970" max = "2022" id="year" name="year" required><br></td>
+				</tr>
+				<tr>
+					<td colspan = "2"><input type="checkbox" id="isactive" name="isactive" value="isactive">
+					<label for="isactive">Put on auction immediately.</label></td>
+				</tr>
+				<tr>
+					<td><input class = "btn" type="submit" value="Add"><br></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

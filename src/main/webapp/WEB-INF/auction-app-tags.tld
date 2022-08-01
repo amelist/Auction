@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.0" xmlns="http://java.sun.com/xml/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+	<tlib-version>2.0</tlib-version>
+  	<jsp-version>2.0</jsp-version>
+  	<short-name>auctionapptags</short-name>
+	<uri>http://someite.com</uri>
+	
+	<tag>
+		<name>carout</name>
+		<tag-class>com.tags.CarOutputTag</tag-class>
+		<body-content>JSP</body-content>
+		<attribute>
+			<name>minprice</name>
+			<rtexprvalue >true </rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>maxprice</name>
+			<rtexprvalue >true </rtexprvalue>
+		</attribute>
+	</tag>
+	<tag>
+		<name>userpage</name>
+		<tag-class>com.tags.UserPageTag</tag-class>
+		<body-content>JSP</body-content>
+		<attribute>
+			<name>userId</name>
+			<rtexprvalue >true </rtexprvalue>
+		</attribute>
+	</tag>
+	<tag>
+		<name>dbupdatesqript</name>
+		<tag-class>com.tags.DBUpdateTag</tag-class>
+		<body-content>JSP</body-content>
+	</tag>
+	
+</taglib>

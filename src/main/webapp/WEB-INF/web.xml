@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Auction</display-name>
+  <welcome-file-list>
+    <welcome-file>SearchPage.jsp</welcome-file>
+  </welcome-file-list>
+  <jsp-config>
+  		<taglib>
+  		<taglib-uri>auctionapptags</taglib-uri>
+  		<taglib-location>/WEB-INF/auction-app-tags.tld</taglib-location>
+ 	 	</taglib>
+ 	 </jsp-config>
+  <servlet>
+  	<servlet-name>SearchPage</servlet-name>
+  	<jsp-file>/SearchPage.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SearchPage</servlet-name>
+  	<url-pattern>/SearchPage</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
